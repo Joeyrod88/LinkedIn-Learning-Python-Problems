@@ -1,0 +1,6 @@
+Import re
+
+def is_palindrome(phase):
+    forwards = '' .join(re.findall(r'[a-z]+', phrase.lower()))
+    backwards = forwards[::-1]
+    return forwards == backwards
